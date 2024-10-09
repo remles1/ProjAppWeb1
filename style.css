@@ -3,20 +3,67 @@ body{
     display: flex;
     height: 100vh;
     flex-direction: column;
-    background-color: green;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
+
+li{
+    border: 1px solid black;
+    display: flex;
+    min-width: 100px;
+    flex: 1;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
 .title{
     display: flex;
     justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    height: 100px;
+    background-color: #2e9100;
+    margin: 0;
+    color: white;
 }
 .menu{
     justify-content: space-around;
+    height: 30px;
+    align-items: center;
     display: flex;
     list-style-type: none;
+    background-color: #895129;
+    margin: 0;
+    padding: 0;
 }
 
-.text{
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #895129;
+    color: white;
+    padding: 20px;
+}
+
+.main{
     font-size: large;
-    margin-left: 20px;
-     margin-right: 20px;
+    flex: 1;
+    margin: 2px 200px 2px 200px;
+}
+
+.top{
+    margin: 0;
+    padding: 0;
+    
 }
