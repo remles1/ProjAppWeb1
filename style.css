@@ -62,8 +62,14 @@ a{
     margin: 10px 20vw 10px 20vw;
 }
 
-.top{
-    margin: 0;
-    padding: 0;
-    
+.images{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.kontakt{
+    display: flex;
+    flex-direction: column;
 }
