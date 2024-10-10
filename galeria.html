@@ -9,10 +9,17 @@
     <meta name="Author" content="Remigiusz Leś" />
     <title>Hodowla żółwia wodnego</title>
     <link rel="stylesheet" href="style.css">
-    
+    <script src="timedate.js" type="text/javascript"></script>
 </head>
-<body>
-    <h1 class="title">Galeria</h1>
+<body onload="startclock()">
+    <div class="top">
+        <div style="width: 33vw"></div>
+        <h1 style="width: 33vw; text-align: center;">Galeria</h1>
+        <div style="text-align: right; width: 33vw;">
+            <div id="zegarek"></div> 
+            <div id="data"></div>
+        </div>
+    </div>
     <ul class="menu">
         <li>
             <a href="index.html">Strona Główna</a>
